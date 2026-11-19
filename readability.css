@@ -1,0 +1,97 @@
+/* USATechSMM — readability overrides */
+:where(body) {
+    font-size: 16px;
+}
+
+:where(p) {
+    font-size: 16px;
+    line-height: 1.75;
+}
+
+:where(.nav-link) { font-size: 16px; }
+:where(.dropdown-menu a) { font-size: 14px; }
+
+:where(.hero-badge) { font-size: 12px; }
+:where(.hero p) { font-size: 16px; line-height: 1.8; }
+
+:where(.products-heading .small-title),
+:where(.section-tag),
+:where(.faq-tag) { font-size: 13px; }
+
+:where(.products-heading h2),
+:where(.section-head h2),
+:where(.faq-heading h2) { font-size: 34px; }
+
+:where(.products-heading p),
+:where(.section-head p),
+:where(.faq-heading p) { font-size: 15px; line-height: 1.7; }
+
+:where(.category-head h3) { font-size: 20px; }
+:where(.category-head span) { font-size: 13px; }
+
+:where(.product-card h4),
+:where(.additional-bottom h4) { font-size: 16px; line-height: 1.45; }
+
+:where(.product-card p),
+:where(.additional-description) { font-size: 14px; line-height: 1.55; }
+
+:where(.product-price),
+:where(.additional-price) { font-size: 15px; }
+
+:where(.product-price small) { font-size: 11px; }
+
+:where(.product-rating-value) { font-size: 11px; }
+:where(.product-rating-count) { font-size: 10px; }
+
+:where(.product-btn),
+:where(.additional-btn),
+:where(.pd-add-cart) { font-size: 13px; }
+
+:where(.review-info h4) { font-size: 15px; }
+:where(.review-card p) { font-size: 14px; }
+
+:where(.faq-question) { font-size: 16px; }
+:where(.faq-answer-box) { font-size: 15px; }
+
+:where(.footer-bottom) { font-size: 13px; }
+:where(.footer-column h3) { font-size: 17px; }
+:where(.about-column p),
+:where(.links-column > a),
+:where(.footer-dropdown > a),
+:where(.contact-column p) { font-size: 14px; }
+
+:where(.pd-product-category) { font-size: 12px; }
+:where(.pd-product-title) { font-size: 36px; }
+:where(.pd-review-link) { font-size: 13px; }
+:where(.pd-product-price) { font-size: 28px; }
+:where(.pd-short-description) { font-size: 15px; }
+:where(.pd-features li) { font-size: 14px; }
+:where(.pd-option-label),
+:where(.pd-product-select),
+:where(.pd-selected-price),
+:where(.pd-cart-summary),
+:where(.pd-product-meta p) { font-size: 13px; }
+:where(.pd-tab-btn) { font-size: 13px; }
+:where(.pd-description-content h2) { font-size: 23px; }
+:where(.pd-description-content h3) { font-size: 17px; }
+:where(.pd-description-content p),
+:where(.pd-description-content li) { font-size: 14px; }
+:where(.pd-info-row) { font-size: 13px; }
+:where(.additional-heading h2) { font-size: 21px; }
+:where(.additional-category-head h3) { font-size: 17px; }
+:where(.additional-category-head p) { font-size: 11px; }
+
+@media (max-width: 700px) {
+    :where(body) { font-size: 16px; }
+    :where(.nav-link) { font-size: 15px; }
+    :where(.hero p),
+    :where(.products-heading p),
+    :where(.section-head p),
+    :where(.faq-heading p),
+    :where(.product-card p),
+    :where(.review-card p),
+    :where(.faq-answer-box) { font-size: 14px; }
+    :where(.product-card h4),
+    :where(.additional-bottom h4) { font-size: 15px; }
+    :where(.pd-product-title) { font-size: 30px; }
+}
